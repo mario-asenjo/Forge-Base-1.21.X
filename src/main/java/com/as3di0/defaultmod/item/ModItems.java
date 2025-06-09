@@ -12,22 +12,22 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, DefaultMod.MODID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, DefaultMod.MOD_ID);
 
-    public static final RegistryObject<Item> MARIANITEINGOT = ITEMS.register("marianite-ingot",
+    public static final RegistryObject<Item> MARIANITE_INGOT = ITEMS.register("marianite-ingot",
             () -> new Item(new Item.Properties()
                     .setId(ResourceKey.create(
                             Registries.ITEM,
-                            ResourceLocation.fromNamespaceAndPath(DefaultMod.MODID, "marianite-ingot")
+                            ResourceLocation.fromNamespaceAndPath(DefaultMod.MOD_ID, "marianite-ingot")
                     ))
             )
     );
 
-    public static final RegistryObject<Item> MARIANITEORE = ITEMS.register("marianite-ore",
+    public static final RegistryObject<Item> MARIANITE_ORE = ITEMS.register("marianite-ore",
             () -> new Item(new Item.Properties()
                     .setId(ResourceKey.create(
                             Registries.ITEM,
-                            ResourceLocation.fromNamespaceAndPath(DefaultMod.MODID, "marianite-ore")
+                            ResourceLocation.fromNamespaceAndPath(DefaultMod.MOD_ID, "marianite-ore")
                     ))
             )
     );
