@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.50,
+  "ingredient": "defaultmod:marianite_ore",
+  "result": {
+    "id": "defaultmod:marianite_ingot"
+  }
+}

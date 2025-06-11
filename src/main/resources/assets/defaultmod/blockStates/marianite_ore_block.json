@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "": {
+      "model": "defaultmod:block/marianite_ore_block"
+    }
+  }
+}

@@ -1,4 +1,9 @@
 {
-  "item.defaultmod.marianite-ingot": "Marianite Ingot",
-  "item.defaultmod.marianite-ore": "Marianite Ore"
+  "item.defaultmod.marianite_ingot": "Marianite Ingot",
+  "item.defaultmod.marianite_ore": "Marianite Ore",
+  "item.defaultmod.marianite_ore_block": "Marianite Ore Block",
+  "item.defaultmod.marianite_deepslate_ore": "Marianite Deepslate Ore",
+  "item.defaultmod.marianite_block": "Marianite Block",
+  "creativetab.defaultmod.marianite_items": "Marianite Items",
+  "creativetab.defaultmod.marianite_blocks": "Marianite Blocks"
 }

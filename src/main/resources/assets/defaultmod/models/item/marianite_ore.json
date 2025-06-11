@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "defaultmod:item/marianite-ore"
+    "layer0": "defaultmod:item/marianite_ore"
   }
 }

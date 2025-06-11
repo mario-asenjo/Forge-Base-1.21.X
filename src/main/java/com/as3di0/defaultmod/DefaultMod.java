@@ -1,6 +1,7 @@
 package com.as3di0.defaultmod;
 
 import com.as3di0.defaultmod.block.ModBlocks;
+import com.as3di0.defaultmod.item.ModCreativeModeTabs;
 import com.as3di0.defaultmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,7 @@ public class DefaultMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -52,7 +54,9 @@ public class DefaultMod {
             event.accept(ModItems.MARIANITE_ORE);
         }
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.MARIANITE_BLOCK);
             event.accept(ModBlocks.MARIANITE_ORE_BLOCK);
+            event.accept(ModBlocks.MARIANITE_DEEPSLATE_ORE);
         }
     }
 

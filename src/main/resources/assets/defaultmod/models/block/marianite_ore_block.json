@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "defaultmod:block/marianite_ore_block"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "defaultmod:marianite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "defaultmod:marianite_ingot"
+  }
+}
