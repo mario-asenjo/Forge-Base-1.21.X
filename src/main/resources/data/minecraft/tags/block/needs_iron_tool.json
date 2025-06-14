@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values" : [
+    "defaultmod:marianite_block",
+    "defaultmod:marianite_ore_block"
+  ]
+}

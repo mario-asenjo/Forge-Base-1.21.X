@@ -42,7 +42,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> MARIANITE_DEEPSLATE_ORE = registrerBlock("marianite_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(DefaultMod.MOD_ID, "marianite_deepslate_ore")))
-                    .strength(2f)
+                    .strength(4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.CANDLE))
             );
